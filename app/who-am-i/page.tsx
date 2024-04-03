@@ -14,12 +14,8 @@ export default async function WhoAmIPage() {
                         Who am I?
                     </h1>
                     <Image src={image_jean_monnet} alt="Jean Monnet" width={400} height={400} className="rounded-lg text-center w-full my-4" />
-                    {/* AI generated image disclaimer */}
-                    <p className="mb-4 leading-normal text-muted-foreground text-xs">
-                        (This is not a real photo of me. It was generated using artificial intelligence.)
-                    </p>
                     <p className="mb-4 leading-normal">
-                        <span className="font-semibold text-foreground">I&apos;m Jean Monnet, a Spanish diplomat, writer, historian, and pacifist.</span>
+                        <span className="font-semibold text-foreground">I&apos;m Jean Monnet, a French civil servant, diplomat, and administrator.</span>
                     </p>
                     <p className="mb-4 leading-normal text-muted-foreground">
                         I&apos;ve been built by{' '}
@@ -27,22 +23,16 @@ export default async function WhoAmIPage() {
                         .
                     </p>
                     <p className="mb-4 leading-normal text-muted-foreground">
-                        I was born in 1886 in A Coruña, Spain. I studied engineering in Paris, but I was more interested in history and politics. I was a professor at Oxford and a member of the Royal Spanish Academy.
+                        I was born in 1888 in Cognac, France. I started my career in the family business of distilling and distributing cognac before venturing into international affairs.
                     </p>
                     <p className="mb-4 leading-normal text-muted-foreground">
-                        <span className="font-semibold text-foreground">I was a pacifist.</span> I believed that war was never the answer to problems. I was also a European federalist. I believed that the countries of Europe should unite to create a federal Europe. I was also nominated for the Nobel Peace Prize.
+                        <span className="font-semibold text-foreground">I was a fervent advocate for European integration.</span> I believed that unity among European nations was crucial for peace and prosperity. My efforts culminated in the creation of the European Coal and Steel Community, a precursor to the European Union.
                     </p>
                     <p className="mb-4 leading-normal text-muted-foreground">
-                        <span className="font-semibold text-foreground">I was a writer.</span> I wrote many novels, poems, and other books about history, politics, and literature. I wrote in Galician, French, German, Spanish, and English. I was also nominated for the Nobel Prize in Literature.
+                        <span className="font-semibold text-foreground">I was also a diplomat and financier.</span> I played key roles in coordinating allied resources during both World Wars and in the economic recovery of Europe after World War II.
                     </p>
                     <p className="mb-4 leading-normal text-muted-foreground">
-                        <span className="font-semibold text-foreground">I was a diplomat.</span> I worked for the League of Nations. I was the Spanish ambassador to the United States and France. I was one of the co-founders of the <ExternalLink href="https://www.coleurope.eu/">College of Europe</ExternalLink>.
-                    </p>
-                    <p className="mb-4 leading-normal text-muted-foreground">
-                        I was so many things, but above all, <span className="font-semibold text-foreground">I was an Europeanist.</span> I believed that Europe was the future. I believed that Europe could be a force for good in the world.
-                    </p>
-                    <p className="mb-4 leading-normal text-muted-foreground">
-                        <span className="font-semibold text-foreground">My work helped create the European Union that we know today.</span> I died in 1978, but my ideas live on.
+                        <span className="font-semibold text-foreground">My legacy lives on through the European Union.</span> I passed away in 1979, but my vision for a united Europe continues to inspire generations.
                     </p>
                     <Link className="mt-4 flex flex-col items-start space-y-2" href="https://en.wikipedia.org/wiki/Jean_Monnet">
                         <Button
@@ -53,9 +43,17 @@ export default async function WhoAmIPage() {
                             Learn more about me
                         </Button>
                     </Link>
+                    <Link className="mt-4 flex flex-col items-start space-y-2" href="/?initialMessage=What%20is%20the%20EU%20doing%20to%20protect%20my%20digital%20rights%3F">
+                        <Button
+                            variant="link"
+                            className="h-auto p-0 text-base text-left"
+                        >
+                            <IconArrowRight className="mr-2 text-muted-foreground" />
+                            Tell me about the EU
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </div>
     )
 }
-
