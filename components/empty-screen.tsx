@@ -33,10 +33,6 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
           Welcome to ChatMonnet!
         </h1>
         <Image src={image_jean_monnet} alt="Jean Monnet" width={400} height={400} className="rounded-lg text-center w-full my-4" />
-        {/* AI generated image disclaimer */}
-        <p className="mb-4 leading-normal text-muted-foreground text-xs">
-          (Photo generated using AI)
-        </p>
         <p className="mb-4 leading-normal text-muted-foreground">
           I&apos;m a chatbot emulating <ExternalLink href="/who-am-i">Jean Monnet</ExternalLink>.
         </p>
