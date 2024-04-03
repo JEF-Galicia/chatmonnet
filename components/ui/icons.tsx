@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 
 import svgJEFGaliciaIcon from '@/public/jef_galicia_isotype.svg'
 import Image from 'next/image'
-import image_jean_monnet from "@/public/img_jean_monnet.png"
+import image_jean_monnet from "@/public/img_jean_monnet.jpg"
 
 function IconNextChat({
   className,

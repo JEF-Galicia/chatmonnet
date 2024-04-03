@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { IconArrowRight } from "@/components/ui/icons";
 import Image from "next/image";
 import Link from "next/link";
-import image_jean_monnet from "@/public/img_jean_monnet.png";
+import image_jean_monnet from "@/public/img_jean_monnet.jpg";
 
 export default async function WhoAmIPage() {
     return (

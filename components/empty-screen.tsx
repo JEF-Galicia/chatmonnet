@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { ExternalLink } from '@/components/external-link'
 import { IconArrowRight } from '@/components/ui/icons'
 import Image from 'next/image'
-import image_jean_monnet from "@/public/img_jean_monnet.png"
+import image_jean_monnet from "@/public/img_jean_monnet.jpg"
 
 const exampleMessages = [
   {
