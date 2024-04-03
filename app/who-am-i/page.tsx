@@ -43,13 +43,13 @@ export default async function WhoAmIPage() {
                             Learn more about me
                         </Button>
                     </Link>
-                    <Link className="mt-4 flex flex-col items-start space-y-2" href="/?initialMessage=What%20is%20the%20EU%20doing%20to%20protect%20my%20digital%20rights%3F">
+                    <Link className="mt-4 flex flex-col items-start space-y-2" href="/?initialMessage=What%20is%20your%20life%20story%3F">
                         <Button
                             variant="link"
                             className="h-auto p-0 text-base text-left"
                         >
                             <IconArrowRight className="mr-2 text-muted-foreground" />
-                            Tell me about the EU
+                            Talk with me about my life
                         </Button>
                     </Link>
                 </div>
